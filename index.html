@@ -1,59 +1,264 @@
 <html>
-    <head>
-        <title>
-            My Resume
 
-        </title>
-        <style>
-            #resumeBody {
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-            }
-            #resumeNamebody {
-                color: blue;
-                background: peachpuff;
-                
-               
-            }
-            #namehead{
-                font-size: 30px;
-            }
-            #resumeEmailDivision{
-                color: navy;
-                background: lightgray;
-                text-align: right;
-                border: lightskyblue;
+<head>
+    <title>
+        My Resume
+    </title>
+    <style>
+        #resumeEmailDivision {
+            text-align: right;
+        }
 
-            }
-        </style>
-    </head>
+        #resumeNameHeading {
+            font-size: 30px;
+            font-weight: bold;
+        }
 
-
-    <body id="resumeBody">
-
-
-        <div id="resumeNamebody">
-            <div id="namehead">
-                Abhishek Sangwan <br>
-
-            </div>
+        #headingDivision {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
             
-        Sophomore, IIT KANPUR <br>
+        }
+
+        .heading {
+            border: 1px solid black;
+        }
+
+        .body {
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+        }
+
+        .bodyBottom {
+            border-bottom: 2px solid black;
+        }
+
+        #educationalQualifications {
+            width: 100%;
+            border: 1px solid black;
+        }
+
+        /* #bottomDivision {
+            display: flex;
+            justify-content: space-evenly;
+        } */
+
+        .contentHeading {
+            text-align: left;
+            font-weight: bold;
+            font-size: 25px;
+            text-decoration: underline;
+        }
+
+        .contentSubheading {
+            text-align: left;
+            font-size: 12px;
+        }
+
+        .contentLocation {
+            text-align: right;
+            font-size: 15px;
+        }
+
+        .contentTime {
+            text-align: right;
+            font-size: 15px;
+        }
+
+        .contentText {
+            text-align: left;
+        }
+
+        .headingContent {
+            font-weight: bold;
+            font-size: 22px;
+            text-decoration: underline;
+            text-align: left;
+        }
+        .subheadingContent {
+            font-weight: normal;
+            font-size: 19px;
+            text-align: left;
+        }
+        .locationContent {
+            font-weight: normal;
+            font-size: 15px;
+            text-align: right;
+        }
+        .timeContent {
+            font-weight: normal;
+            font-size: 15px;
+            text-align: right;
+        }
+
+        .textContent {
+            text-align: left;
+        }
+
+        #bottomDivision {
+            /* display: flex;
+            flex-direction: row; */
+            text-align: left;
+        }
         
+        .sectionHeading {
+            text-align: left;
+            border-bottom: 3px solid black;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        #relevantCoursesFlex {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            /* text-align: left; */
+        }
+        #por{
+            text-align: left;
+            font-size: medium;
+        }
+
+    </style>
+</head>
+
+<body id="resumeBody">
+    <div id="headingDivision">
+        <div id="resumeNameDivision">
+            <div id="resumeNameHeading">Abhishek Sangwan <br /></div>
+            Sophomore <br />
+            Department of Civil Engineering <br />
+            IIT Kanpur <br />
         </div>
-        
+
         <div id="resumeEmailDivision">
-            
-            sangwanabhishek1020@gmail.com <br>
-            +91-7355816885 <br>
-            https://www.linkedin.com/in/abhishek-sangwan-29456a1ba/ <br>
-            https://github.com/abhisheksangwan <br>
+            sangwanabhishek1020@gmail.com<br />
+            +91-7355816885<br />
+            https://www.linkedin.com/in/abhishek-sangwan-29456a1ba/linkedin.com/in/<br />
+            https://github.com/abhisheksangwan<br />
         </div>
-        
+    </div>
+    <br>
+    <div id="educationalQualifications">
+        <table id="educationalQualificationsTable" width="100%" cellspacing="0">
+            <thead>
+                <tr>
+                    <th class="heading">Year</th>
+                    <th class="heading">Degree</th>
+                    <th class="heading">Institution (Board)</th>
+                    <th class="heading">CGPA/%</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="body">2024*</td>
+                    <td class="body">B. Tech, CE</td>
+                    <td class="body">Indian Institute of Technology, Kanpur</td>
+                    <td class="body">7.67/10.0</td>
+                </tr>
+                <tr>
+                    <td class="body">2019</td>
+                    <td class="body">XII</td>
+                    <td class="body">RPS Sr. Sec. School</td>
+                    <td class="body">94.6%</td>
+                </tr>
+                <tr>
+                    <td class="body bodyBottom">2017</td>
+                    <td class="body bodyBottom">CBSE X</td>
+                    <td class="body bodyBottom">RPS Sr. Sec. School</td>
+                    <td class="body bodyBottom">10.0/10.0</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <div id="bottomDivision">
+    <div id="leftDivision">
+    <div class="bottomContent">
+        <div class="sectionHeading">Work Experience</div>
+        <div class="headingContent">GI Project</div>
+        <div class="subheadingContent">(Organized by <strong>Society of Civil Engineering</strong>)</div>
+        <div class="locationContent">India</div>
+        <div class="timeContent">Winter 2021</div>
+        <div class="textContent">
+            <ul>
+                <li>I learnt HTML and CSS</li>
+                <li>Made My resume using HTML, CSS</li>
+            </ul>
+            
+            </div>
+    </div>
+    <div class="bottomContent">
+        <div class="headingContent">Game Development Project</div>
+        <div class="subheadingContent">(Organized by <strong>SnT Council</strong>)</div>
+        <div class="locationContent">India</div>
+        <div class="timeContent">Summer 2021</div>
+        <div class="textContent">
+            <ul>
+                <li>Developed a basic game using <strong>Unity</strong> and <strong>Blender</strong> from scratch in a team.</li>
+                <li>Made the environment setup for the game.</li>
+                <li>Created custom animations, Buttons in Photoshop and Blender and added them to the character.</li>
+            </ul>
+            
+            </div>
+        </div>
+    </div>
+</div>
+<div id="rightDivision">
+    <div class="bottomContent">
+        <div class="headingContent">Technical Skills</div>
+        <!-- <div class="subheadingContent"></div> -->
+        <!-- <div class="locationContent">Location</div>
+        <div class="timeContent">Time</div> -->
+        <div class="textContent">
+            <strong>Programming Languages :</strong> C/C++ | MATLAB | HTML | CSS <br>
+            <strong>Utilities :</strong> Git | Bash 
+        </div>
+    </div>
 
 
-    
 
-    </body>
+</div>
+</div>
+<br>
+<div>
+    <div class="sectionHeading">Relevant Courses</div>
+    <div id="relevantCoursesFlex">
+        <div>Introduction to Programming<br />
+             Data Structures and Algorithms*<br /></div>
+        <div>Applied Probability And Statistics<br />
+             Introduction to Electronics<br /></div>
+        <div>Linear Algebra <br />
+            Engineering Graphics<br /></div>
+        <div>Engineering Hydraulics <br />
+            Manufacturing Processes<br /></div>
+    </div>
+</div>
+<br>
+<!-- <div>
+    <div class="sectionHeading">Position Of Responsibility</div>
+    <div id="por">
+        <div>Prayas - Volunteer<br />
+             Udgosh - Senior Executive<br />
+             Antaragni- Secretary Design Team<br />
+            
+            </div> -->
+    <!-- </div>
+</div> -->
+
+
+
+<div class="sectionHeading">Position of Responsibilty</div>
+    <div><ul><li><strong>Udghosh IIT Kanpur</strong>-(Senior Executive)</li></ul></div>
+    <div class="timeContent">Oct,2021-Present*</div>
+    <div>Appointed by the organizers to aid them in the smooth conduction of the event.</div>
+    <div id="por"><ul><li><strong>Prayas IIT Kanpur</strong>- Volunteer</li></ul></div>
+    <div class="timeContent">Jan,2020-Present*</div>
+    <div></div>
+    <div id="por"><ul><li><strong>Antaragni- IIT Kanpur</strong>Secretary Design</li></ul></div>
+    <div>Appointed by the organizers to aid them in the smooth conduction of the event.</div>
+
+</body>
+
 </html>

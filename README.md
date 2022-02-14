@@ -1,6 +1,6 @@
-# GI_Project_2021-22
+# Resume
 
-# Winter Project under SOCE 
+Learnt HTML during Winter Project SOCE'21
 
 Society Of Civil Engineering &emsp;&emsp;&emsp;&emsp; Winter Project in Geoinformatics <br/>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;India <br/>
